@@ -12,15 +12,21 @@ const AboutmeCard = props => {
             <h1>Fredy Yudiawan</h1>
             
             <p class="title">Software Developer - @merdekacloud</p>
-            <p>Hi, I'm Fredy and I have been a software developer since 2005. I have been involved in numerous enterprise application development in Indonesia. I can assist you and your company on software development, create and manage offshore development talents. I taught courses in Udemy about MERN stack, React Native, and Java Spring Boot in Indonesian.</p>
+            <p>Hi, I'm Fredy. I am a software developer based in Jakarta. I have been a software developer since 2005. I have been involved in numerous enterprise application development in Indonesia. I can assist you and your company on software development, create and manage offshore development talents. I taught courses in Udemy about MERN stack, React Native, and Java Spring Boot in Indonesian.</p>
             <a href="https://twitter.com/merdekaCloud"><i class="fa fa-twitter"></i></a>
             <a href="https://www.linkedin.com/in/ftansari/"><i class="fa fa-linkedin"></i></a>
             <a href="https://www.upwork.com/freelancers/~0154ac6152389749a5"><img className="upwork-icon" src={upworkIcon}></img></a>
-            {/* <a href="https://www.upwork.com/freelancers/~0154ac6152389749a5"><upworkIcon className="upwork-icon"/></a> */}
+           
             <a href="https://www.udemy.com/user/fredi-tansari/"><img className="upwork-icon" src={udemyIcon}></img></a>
             <p><button>Contact</button></p>
             </div>
             <style jsx>{`
+            h1{
+                fontSize : 1rem;
+            }
+            p{
+                fontSize: 1rem;
+            }
             .fa-twitter{
                 color: white
             }
