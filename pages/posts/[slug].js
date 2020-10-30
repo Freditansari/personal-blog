@@ -7,8 +7,6 @@ const Post =({content, data}) =>{
 
     const frontmatter = data
 
-    // console.log(frontmatter)
-    // console.log(content)
 
 
 
