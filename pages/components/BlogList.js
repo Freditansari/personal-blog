@@ -7,12 +7,15 @@ import Truncate from 'react-truncate';
 
 const BlogList = props => {
     // console.log(props)
-    const blogData = props.blogData
+    const blogData = props.blogData.sort((a, b) =>{
+        return new Date(b.date) - new Date(a.date)
+    })
     return (
         <div>
             <div class="list-group">
             {
-                
+        
+           
                 blogData.map( post =>{
                     return (
                         <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
@@ -26,6 +29,11 @@ const BlogList = props => {
 
                     )
                     })
+           
+
+               
+                
+              
             }
             
        

@@ -9,7 +9,7 @@ const AboutmeCard = props => {
 
             <div class="card">
     
-            <h1>Fredy Yudiawan</h1>
+            <h3>Fredy Yudiawan</h3>
             
             <p class="title">Software Developer - @merdekacloud</p>
             <p>Hi, I'm Fredy. I am a software developer based in Jakarta. I have been a software developer since 2005. I have been involved in numerous enterprise application development in Indonesia. I can assist you and your company on software development, create and manage offshore development talents. I taught courses in Udemy about MERN stack, React Native, and Java Spring Boot in Indonesian.</p>
@@ -22,10 +22,10 @@ const AboutmeCard = props => {
             </div>
             <style jsx>{`
             h1{
-                fontSize : 1rem;
+                fontSize : x-small;
             }
             p{
-                fontSize: 1rem;
+                fontSize: x-small;
             }
             .fa-twitter{
                 color: white
